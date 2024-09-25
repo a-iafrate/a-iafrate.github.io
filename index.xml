@@ -6,13 +6,15 @@
         <description>Recent content on Developer Nerd Universe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>https://demo.stack.jimmycai.com/p/hello-world/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Maui tips - Tab navigation via code</title>
+        <link>https://demo.stack.jimmycai.com/p/maui-tabs-navigation/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/hello-world/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
+        <guid>https://demo.stack.jimmycai.com/p/maui-tabs-navigation/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/p/maui-tabs-navigation/cover.jpg" alt="Featured image of post Maui tips - Tab navigation via code" /&gt;&lt;p&gt;In app development, it&amp;rsquo;s common to use tab navigation. Sometimes, clients request the ability to change pages using methods other than just buttons, such as a menu.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how we handle these cases:&lt;/p&gt;
+&lt;p&gt;Step 1: We insert the Route property into the XML file section that describes the behavior of our tabs, as shown in the following code:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -21,27 +23,44 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Tab&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Title=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Home&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Icon=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;tab_home.png&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;lt;ShellContent&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ContentTemplate=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{DataTemplate local:TabHomePage}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Route=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Tab&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Tab&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Title=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Scan QR-Code&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Icon=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;qr_code.png&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;lt;ShellContent&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ContentTemplate=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{DataTemplate local:QrCodePage}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Route=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;qrcode&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Tab&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/div&gt;&lt;p&gt;Step 2: With our code, we can easily navigate to the desired page.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Current&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GoToAsync&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;//qrcode&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Simple, right?&lt;/p&gt;
+&lt;p&gt;Happy coding!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hello Blog</title>
+        <link>https://demo.stack.jimmycai.com/p/hello-blog/</link>
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/hello-blog/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-blog/cover.jpg" alt="Featured image of post Hello Blog" /&gt;&lt;p&gt;Perchè un nuovo blog?
+Perchè nella vita si cambia ed a volte non ci si sente più a proprio agio con quello che si è realizzato fino ad ora, a volte le cose possono andare strette.
+Questo è il caso del vecchio blog che potete trovare sempre allo stesso indirizzo
+&lt;a class=&#34;link&#34; href=&#34;https://www.acquariusoft.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.acquariusoft.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ho deciso vedendo anche l&amp;rsquo;esperienza di amici (soprattutto di Matteo Pagani di &lt;a class=&#34;link&#34; href=&#34;https://www.developerscantina.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Developer&amp;rsquo;s Cantina&lt;/a&gt; a cui ho rubato il template e l&amp;rsquo;utilizzo di Hugo come piattaforma per il blog :D ) di passare ad un blog statico, ma più veloce e semplice da mantenere rispetto al blog che avevo prima che girava su wordpress.&lt;/p&gt;
+&lt;p&gt;E poi diciamocelo, il fatto di avere il tutto versionato su github è roba da nerd :D&lt;/p&gt;
+&lt;p&gt;Ma quindi perchè questo blog? Per provare a tenere traccia di quello che faccio, delle mie sessioni, dei miei test e di quello che trovo tutti i giorni lavorando nel mondo della programmazione.&lt;/p&gt;
 </description>
         </item>
         <item>
