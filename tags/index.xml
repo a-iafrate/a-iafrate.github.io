@@ -6,7 +6,31 @@
         <description>Recent content in Tags on Developer Nerd Universe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blog</title>
+        <link>https://demo.stack.jimmycai.com/tags/blog/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/blog/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Community</title>
+        <link>https://demo.stack.jimmycai.com/tags/community/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/community/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Photo</title>
+        <link>https://demo.stack.jimmycai.com/tags/photo/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/photo/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Maui</title>
         <link>https://demo.stack.jimmycai.com/tags/maui/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
@@ -28,14 +52,6 @@
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://demo.stack.jimmycai.com/tags/tabs/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Blog</title>
-        <link>https://demo.stack.jimmycai.com/tags/blog/</link>
-        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://demo.stack.jimmycai.com/tags/blog/</guid>
         <description></description>
         </item>
         

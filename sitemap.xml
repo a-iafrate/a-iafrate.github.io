@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://demo.stack.jimmycai.com/p/community-community-community/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://demo.stack.jimmycai.com/p/maui-tabs-navigation/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +12,33 @@
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://demo.stack.jimmycai.com/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/categories/c%23/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <loc>https://demo.stack.jimmycai.com/tags/blog/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/categories/blog/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://demo.stack.jimmycai.com/categories/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/tags/community/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/categories/community/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/tags/photo/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/post/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/tags/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://demo.stack.jimmycai.com/categories/c%23/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://demo.stack.jimmycai.com/categories/developer/</loc>
@@ -29,23 +53,11 @@
     <loc>https://demo.stack.jimmycai.com/tags/navigation/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/post/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://demo.stack.jimmycai.com/tags/tabs/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://demo.stack.jimmycai.com/tags/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://demo.stack.jimmycai.com/categories/tips/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://demo.stack.jimmycai.com/tags/blog/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://demo.stack.jimmycai.com/categories/blog/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://demo.stack.jimmycai.com/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>

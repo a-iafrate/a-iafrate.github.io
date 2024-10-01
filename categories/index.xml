@@ -6,7 +6,23 @@
         <description>Recent content in Categories on Developer Nerd Universe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blog</title>
+        <link>https://demo.stack.jimmycai.com/categories/blog/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/blog/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Community</title>
+        <link>https://demo.stack.jimmycai.com/categories/community/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/community/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>C#</title>
         <link>https://demo.stack.jimmycai.com/categories/c%23/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
@@ -36,14 +52,6 @@
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://demo.stack.jimmycai.com/categories/tips/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Blog</title>
-        <link>https://demo.stack.jimmycai.com/categories/blog/</link>
-        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://demo.stack.jimmycai.com/categories/blog/</guid>
         <description></description>
         </item>
         
