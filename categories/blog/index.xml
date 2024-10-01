@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on Developer Nerd Universe</title>
+        <link>https://demo.stack.jimmycai.com/categories/blog/</link>
+        <description>Recent content in Blog on Developer Nerd Universe</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hello Blog</title>
+        <link>https://demo.stack.jimmycai.com/p/hello-blog/</link>
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/hello-blog/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-blog/cover.jpg" alt="Featured image of post Hello Blog" /&gt;&lt;p&gt;Perchè un nuovo blog?
+Perchè nella vita si cambia ed a volte non ci si sente più a proprio agio con quello che si è realizzato fino ad ora, a volte le cose possono andare strette.
+Questo è il caso del vecchio blog che potete trovare sempre allo stesso indirizzo
+&lt;a class=&#34;link&#34; href=&#34;https://www.acquariusoft.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.acquariusoft.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ho deciso vedendo anche l&amp;rsquo;esperienza di amici (soprattutto di Matteo Pagani di &lt;a class=&#34;link&#34; href=&#34;https://www.developerscantina.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Developer&amp;rsquo;s Cantina&lt;/a&gt; a cui ho rubato il template e l&amp;rsquo;utilizzo di Hugo come piattaforma per il blog :D ) di passare ad un blog statico, ma più veloce e semplice da mantenere rispetto al blog che avevo prima che girava su wordpress.&lt;/p&gt;
+&lt;p&gt;E poi diciamocelo, il fatto di avere il tutto versionato su github è roba da nerd :D&lt;/p&gt;
+&lt;p&gt;Ma quindi perchè questo blog? Per provare a tenere traccia di quello che faccio, delle mie sessioni, dei miei test e di quello che trovo tutti i giorni lavorando nel mondo della programmazione.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

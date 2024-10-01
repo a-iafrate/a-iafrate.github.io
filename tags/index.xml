@@ -6,12 +6,36 @@
         <description>Recent content in Tags on Developer Nerd Universe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Example Tag</title>
-        <link>https://demo.stack.jimmycai.com/tags/example-tag/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Maui</title>
+        <link>https://demo.stack.jimmycai.com/tags/maui/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/tags/example-tag/</guid>
+        <guid>https://demo.stack.jimmycai.com/tags/maui/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Navigation</title>
+        <link>https://demo.stack.jimmycai.com/tags/navigation/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/navigation/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tabs</title>
+        <link>https://demo.stack.jimmycai.com/tags/tabs/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/tabs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Blog</title>
+        <link>https://demo.stack.jimmycai.com/tags/blog/</link>
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/blog/</guid>
         <description></description>
         </item>
         

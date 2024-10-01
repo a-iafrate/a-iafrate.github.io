@@ -6,10 +6,10 @@
         <description>Recent content in Categories on Developer Nerd Universe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C#</title>
         <link>https://demo.stack.jimmycai.com/categories/c%23/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://demo.stack.jimmycai.com/categories/c%23/</guid>
         <description></description>
@@ -17,9 +17,33 @@
         <item>
         <title>Developer</title>
         <link>https://demo.stack.jimmycai.com/categories/developer/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://demo.stack.jimmycai.com/categories/developer/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Maui</title>
+        <link>https://demo.stack.jimmycai.com/categories/maui/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/maui/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tips</title>
+        <link>https://demo.stack.jimmycai.com/categories/tips/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/tips/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Blog</title>
+        <link>https://demo.stack.jimmycai.com/categories/blog/</link>
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/blog/</guid>
         <description></description>
         </item>
         
