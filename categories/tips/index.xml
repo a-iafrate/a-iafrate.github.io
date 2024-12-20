@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/tips/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Maui tips - Tab navigation via code</title>
+        <title>Maui tips 01 - Tab navigation via code</title>
         <link>https://demo.stack.jimmycai.com/p/maui-tabs-navigation/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://demo.stack.jimmycai.com/p/maui-tabs-navigation/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/maui-tabs-navigation/cover.jpg" alt="Featured image of post Maui tips - Tab navigation via code" /&gt;&lt;p&gt;In app development, it&amp;rsquo;s common to use tab navigation. Sometimes, clients request the ability to change pages using methods other than just buttons, such as a menu.&lt;/p&gt;
+        <description>&lt;img src="https://demo.stack.jimmycai.com/p/maui-tabs-navigation/cover.jpg" alt="Featured image of post Maui tips 01 - Tab navigation via code" /&gt;&lt;p&gt;In app development, it&amp;rsquo;s common to use tab navigation. Sometimes, clients request the ability to change pages using methods other than just buttons, such as a menu.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s how we handle these cases:&lt;/p&gt;
 &lt;p&gt;Step 1: We insert the Route property into the XML file section that describes the behavior of our tabs, as shown in the following code:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
